@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../auth/authContext";
 import { types } from "../../types/types";
+import "./navbar.css";
 
 export const Navbar = () => {
   const { user, dispatch } = useContext(AuthContext);
@@ -18,7 +19,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav className="navbar navbar-expand navbar-dark bg-dark">
       <Link className="navbar-brand" to="/">
         HeroesApp
       </Link>
