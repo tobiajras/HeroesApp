@@ -22,12 +22,9 @@
     "static/media/marvel-cyclops.jpg": "./static/media/marvel-cyclops.f144240854b9dec1b9af.jpg",
     "static/media/marvel-hawkeye.jpg": "./static/media/marvel-hawkeye.1f78e874c315b926c463.jpg",
     "static/media/dc-robin.jpg": "./static/media/dc-robin.ea4afe99ecbc5480b0e3.jpg",
-    "index.html": "/index.html",
+    "index.html": "./index.html",
     "main.22727bf3.css.map": "./static/css/main.22727bf3.css.map",
     "main.e4c5f3d6.js.map": "./static/js/main.e4c5f3d6.js.map"
   },
-  "entrypoints": [
-    "static/css/main.22727bf3.css",
-    "static/js/main.e4c5f3d6.js"
-  ]
+  "entrypoints": ["static/css/main.22727bf3.css", "static/js/main.e4c5f3d6.js"]
 }
