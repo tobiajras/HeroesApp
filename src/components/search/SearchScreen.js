@@ -26,7 +26,7 @@ export const SearchScreen = () => {
   };
 
   return (
-    <>
+    <div className='screenDiv'>
       <h1>Search</h1>
       <hr />
 
@@ -59,6 +59,6 @@ export const SearchScreen = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
