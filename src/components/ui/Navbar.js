@@ -2,7 +2,7 @@
 import { Link, NavLink } from 'react-router-dom';
 // import { useNavigate } from 'react-router-dom';
 // import { AuthContext } from '../../auth/authContext';
-import { types } from '../../types/types';
+// import { types } from '../../types/types';
 import './navbar.css';
 
 export const Navbar = () => {
