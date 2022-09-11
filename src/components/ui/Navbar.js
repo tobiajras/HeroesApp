@@ -1,22 +1,23 @@
-import React, { useContext } from 'react';
-import { Link, NavLink, useNavigate } from 'react-router-dom';
-import { AuthContext } from '../../auth/authContext';
+// import React, { useContext } from 'react';
+import { Link, NavLink } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
+// import { AuthContext } from '../../auth/authContext';
 import { types } from '../../types/types';
 import './navbar.css';
 
 export const Navbar = () => {
-  const { user, dispatch } = useContext(AuthContext);
-  const navigate = useNavigate();
+  // const { user, dispatch } = useContext(AuthContext);
+  // const navigate = useNavigate();
 
-  const handleLogout = () => {
-    dispatch({
-      type: types.logout,
-    });
+  // const handleLogout = () => {
+  //   dispatch({
+  //     type: types.logout,
+  //   });
 
-    navigate('/login', {
-      replace: true,
-    });
-  };
+  //   navigate('/login', {
+  //     replace: true,
+  //   });
+  // };
 
   return (
     <nav className='navbar navbar-expand navbar-dark bg-dark'>
