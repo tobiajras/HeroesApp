@@ -20,19 +20,19 @@ export const Navbar = () => {
   // };
 
   return (
-    <nav className='navbar navbar-expand navbar-dark bg-dark'>
-      <Link className='navbar-brand' to='/'>
-        HeroesApp
+    <nav className="navbar navbar-expand navbar-dark bg-dark">
+      <Link className="navbar-brand" to="/">
+        <img className="navbar-imgLogo" src="/heroes.svg" alt="logoHeroes" />
       </Link>
 
-      <div className='navbar-collapse'>
-        <div className='navbar-nav'>
+      <div className="navbar-collapse">
+        <div className="navbar-nav">
           <NavLink
             // className={({ isActive }) =>
             //   "nav-item nav-link" + (isActive ? "active" : "")
             // }
-            className='nav-item nav-link'
-            to='/marvel'
+            className="nav-item nav-link"
+            to="/marvel"
           >
             Marvel
           </NavLink>
@@ -41,8 +41,8 @@ export const Navbar = () => {
             // className={({ isActive }) =>
             //   "nav-item nav-link" + (isActive ? "active" : "")
             // }
-            className='nav-item nav-link'
-            to='/dc'
+            className="nav-item nav-link"
+            to="/dc"
           >
             DC
           </NavLink>
@@ -51,17 +51,17 @@ export const Navbar = () => {
             // className={({ isActive }) =>
             //   "nav-item nav-link" + (isActive ? "active" : "")
             // }
-            className='nav-item nav-link'
-            to='/search'
+            className="nav-item nav-link"
+            to="/search"
           >
             Search
           </NavLink>
         </div>
       </div>
 
-      <div className='navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end'>
-        <ul className='navbar-nav ml-auto'>
-          <span className='nav-item nav-link text-info'>Tobias Ajras</span>
+      <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
+        <ul className="navbar-nav ml-auto">
+          <span className="nav-item nav-link text-info">Tobias Ajras</span>
           {/* <button className="nav-item nav-link btn" onClick={handleLogout}>
             Logout
           </button> */}
